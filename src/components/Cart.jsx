@@ -24,7 +24,7 @@ const Cart = ({ cartItems, removeFromCart }) => {
             <li key={item.id} className="cart-item fade-in">
               <div className="item-info">
                 <span className="item-name">{item.name}</span>
-                <span className="item-price">${item.price.toFixed(2)}</span>
+                <span className="item-price">Rs.{item.price.toFixed(2)*10}</span>
               </div>
               <button
                 className="remove-button"
@@ -38,7 +38,7 @@ const Cart = ({ cartItems, removeFromCart }) => {
       )}
       {cartItems.length > 0 && (
         <div className="cart-summary fade-in">
-          <h3>Total: ${totalPrice.toFixed(2)}</h3>
+          <h3>Total: Rs.{totalPrice.toFixed(2)*10}</h3>
           <button className="checkout-button">Checkout</button>
         </div>
       )}
