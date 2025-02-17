@@ -1,0 +1,44 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #4CAF50; /* Green background */
+    transition: all 0.3s ease;
+    z-index: 1000; /* Ensure the header stays on top */
+    margin-bottom: 5rem;
+  }
+  
+  .header.scrolled {
+    background-color: rgba(76, 175, 80, 0.9); /* Semi-transparent green */
+    border-radius: 0 0 20px 20px; /* Rounded bottom edges */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+    padding: 10px 20px; /* Slightly smaller padding */
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between links */
+    
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  .nav-link:active {
+    transform: translateY(0); /* Reset lift effect on click */
+  }
