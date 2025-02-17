@@ -4,14 +4,13 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import Fruits from './pages/Fruits';
 import Vegetables from './pages/Vegetables';
-// import Vegetables from './pages/Vegetables';
 import CartPage from './pages/CartPage';
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
 
   const addToCart = (product) => {
-    setCartItems([...cartItems, product]);
+    setCartItems((prevCartItems) => [...prevCartItems, product]);
   };
 
   return (

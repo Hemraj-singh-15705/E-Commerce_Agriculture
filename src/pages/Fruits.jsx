@@ -4,8 +4,8 @@ import './Fruits.css'; // Import the CSS file for styling
 
 const Fruits = ({ addToCart }) => {
   const fruits = [
-    { id: 1, name: 'Apple', description: 'Fresh and juicy apples.', price: 2.5, image: 'https://media.istockphoto.com/id/495878092/photo/red-apple.jpg?s=612x612&w=0&k=20&c=M2ndFI1v2erJM18q1Cd1QCM8jqBlRKLc1nLE9BNp-EY=' },
-    { id: 2, name: 'Banana', description: 'Ripe and sweet bananas.', price: 1.5, image: 'https://media.istockphoto.com/id/922094380/photo/bananas.jpg?s=612x612&w=0&k=20&c=rn2ufKeLZf3wAUmNUKBi6md-U1gQI4_1038v-VUT3JE=' },
+    { id: 1, name: 'Apple', description: 'Fresh and juicy apples.', price: 2.5, image: 'https://via.placeholder.com/150' },
+    { id: 2, name: 'Banana', description: 'Ripe and sweet bananas.', price: 1.5, image: 'https://via.placeholder.com/150' },
     { id: 3, name: 'Orange', description: 'Sweet and tangy oranges.', price: 1.8, image: 'https://via.placeholder.com/150' },
     { id: 4, name: 'Mango', description: 'King of fruits, sweet and delicious.', price: 3.0, image: 'https://via.placeholder.com/150' },
     { id: 5, name: 'Pineapple', description: 'Tropical and refreshing.', price: 2.5, image: 'https://via.placeholder.com/150' },
