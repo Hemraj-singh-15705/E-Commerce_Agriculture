@@ -15,7 +15,7 @@ const ProductCard = ({ product, addToCart }) => {
       <img src={product.image} alt={product.name} className="product-image" />
       <h3>{product.name}</h3>
       <p>{product.description}</p>
-      <p>Price: Rs.{product.price.toFixed(2) * 10}/Kg</p>
+      <p>Price: Rs.{product.price.toFixed(2) * 10 +5}/Kg</p>
       <button onClick={handleAddToCart}>Add to Cart</button>
 
       {/* Flash Message */}

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './Home.css'; // Import the CSS file for styling
 import heroimage from '../assets/heroimage.jpg';
 import PlantingProcess from '../pages/PlantingProcess'
+import Footer from '../components/Footer'
 
 const Home = () => {
   // Page load event to trigger animations
@@ -38,7 +39,7 @@ const Home = () => {
           organic and sustainable farming practices.
         </p>
       </div>
-      
+      <Footer/>
     </div>
   );
 };

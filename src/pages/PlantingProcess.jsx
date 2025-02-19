@@ -5,7 +5,7 @@ const PlantingProcess = () => {
   return (
     <div className="planting-process-container">
       <h1>Process of Planting</h1>
-      <div className="process-steps">
+      <section className="process-steps-grid">
         {/* Step 1 */}
         <div className="step">
           <div className="step-number">1</div>
@@ -89,7 +89,7 @@ const PlantingProcess = () => {
             />
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import ProductCard from './ProductCard';
 import './ProductList.css'; // Import the CSS file for styling
+import  Footer from '../components/Footer'
 
 const ProductList = ({ products, addToCart }) => {
   return (
@@ -8,6 +9,7 @@ const ProductList = ({ products, addToCart }) => {
       {products.map((product) => (
         <ProductCard key={product.id} product={product} addToCart={addToCart} />
       ))}
+      <Footer/>
     </div>
   );
 };

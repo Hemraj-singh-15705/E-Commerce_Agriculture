@@ -27,9 +27,10 @@ const CartPage = ({ cartItems, removeFromCart }) => {
       {/* Modal for Retailer Information */}
       <Modal isOpen={isModalOpen} onClose={closeModal}>
         <h2>Retailer Information</h2>
-        <p>Phone: +1 (123) 456-7890</p>
-        <p>Email: info@retailer.com</p>
-        <p>Address: 123 Main St, City, Country</p>
+        <p>Phone No: +91 9369851369</p>
+        <p>Email: hmphemrajpatel15705hp@gmail.com</p>
+        <p>Address: Khohi Road Shivrampur Chitrakoot</p>
+        <p>Landmark: K.N. Shukla Hospital && KSMI Foundation 2.0</p>
       </Modal>
     </div>
   );
